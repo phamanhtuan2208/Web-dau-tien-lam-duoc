@@ -1,0 +1,445 @@
+
+header{
+    background-color: rgb(245, 243, 243);
+     
+ }
+ 
+ #logo{
+     color: black;
+     font-size: 47px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .col-md-2{
+     margin-top: 10px;
+ }
+  
+      
+     .search-box {  
+         
+         margin-top: 10px;
+     display: inline-block;  
+     width: 100%;  
+     height: 55px;
+     border-radius: 3px;  
+     padding: 4px 55px 4px 15px;  
+     position: relative;  
+     background: #fff; 
+     border: 1px solid #ddd;  
+     -webkit-transition: all 200ms ease-in-out;  
+     -moz-transition: all 200ms ease-in-out;  
+     transition: all 200ms ease-in-out;
+     }
+      
+     .search-box.hovered, .search-box:hover, .search-box:active {  
+     border: 1px solid #aaa;
+     }
+      
+     .search-box input[type=text] { 
+      border: none;  
+     box-shadow: none;  
+     display: inline-block;  
+     padding: 0;  
+     background: transparent;
+     }
+      
+     .search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+     box-shadow: none;
+     }
+      
+     .search-box .search-btn {  
+     position: absolute;  
+     right: 2px;  
+     top: 2px;  
+     color: #aaa;  
+     border-radius: 3px;  
+     font-size: 21px;  
+     padding: 5px 10px 1px;  
+     -webkit-transition: all 200ms ease-in-out;  
+     -moz-transition: all 200ms ease-in-out;  
+     transition: all 200ms ease-in-out;
+     }
+      
+     .search-box .search-btn:hover {  
+     color: #fff;  
+     background-color: #000000;
+     }
+     #iconphone{
+         font-size: 30px;
+         margin-top: 7px;
+         color:  #000000;
+     }
+     #dt{
+         color: black;
+        
+     }
+     #icongiohang{
+         font-size: 30px;
+         margin-top: 6px;
+         color:  #000000;
+         
+     }
+   
+     #giohang{
+         color:#000000 ;
+         
+         font-size: 17px;
+ 
+     }
+     #giohang:hover{
+         text-decoration:none;
+         color: rgb(0, 0, 0);
+         transition: 0.3s;
+     
+         }
+     
+     nav{
+         border: 5px; /* bo góc */
+         background-color: rgb(0, 0, 0);
+     
+     }
+     nav ul{
+         display: flex;
+       
+ 
+     }
+     nav> ul li{
+         list-style: none; /* bỏ dấu chấm mặc định của li */
+         width: 150px;
+         color: white;
+         
+     }
+     nav> ul li a{
+         display: block;
+         padding: 0 25px;
+         line-height: 50px;
+         color: #ffffff;
+         text-decoration: none;
+     }
+     nav ul li:first-child {
+         border-left: none; /* bỏ đường kè trái của phần tử đầu tiên */
+         color: white;
+     }
+    
+     
+     /* Khi hover đến li, tô màu cho thẻ a */
+     nav ul li:hover>a{
+         text-decoration: none;
+         background-image: linear-gradient(45deg, #000000, #8b8b8b 80%);
+         transition: 0.7s;
+         color:white;
+     }
+     nav ul:hover{
+         text-decoration: none;
+         color:rgb(255, 255, 255);
+         
+     }
+     /*menu con*/
+     /*Ẩn các menu con cấp 1,2,3*/
+ 
+     @keyframes ani {
+         from {
+             transform: translateY(40px);
+             opacity: 0;
+            }
+ 
+         to {}
+       }
+ 
+ 
+ 
+     nav li ul{
+         display: none;
+         min-width: 350px;
+         position: absolute;
+         margin-left: -40px;
+         opacity: 0.95;
+         animation-name: ani;
+         animation-duration: 0.45s;
+         
+     }
+     nav li>ul li{
+         width: 100%;
+         border: none;
+         background: rgb(0, 0, 0);
+         text-align: left;
+     }
+    
+     /*khi hover thì hiện menu con*/
+     nav  li:hover > ul{
+         display:  block;
+     }
+ 
+   
+ 
+     
+     nav  li:hover > div{
+         display:  block;
+     }
+   #khac{
+       width: 1000px;
+       height: 149px;
+   }
+   td{
+         width: 250px;
+         text-align: center;
+   }
+   td>a:hover{
+       text-decoration: none;
+       background-image: linear-gradient(45deg, #000000, #919191 80%);
+       color:white;
+       transition: 0.7s;
+   }
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     section{
+        
+         
+         width: 100%;
+        
+         
+         
+     }
+
+
+
+
+.header2{
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.font1{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+h1 {
+    font-weight: bold;
+}
+.button1
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(59, 48, 211); 
+}
+.button1:hover {
+    background-color: #671472;
+    color: rgb(0, 0, 0);
+  }
+
+.demo1 {
+      font-size: 60px;
+      color: rgb(0, 0, 0);
+}
+.khuyenmai{
+    margin-left: 500px;
+    color: rgb(0, 0, 0);
+}
+.kmChung > a{
+    color: rgb(0, 0, 0);
+}
+.kmChung > li > a{
+    color: rgb(0, 0, 0);
+}
+.font2{
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.font2 > a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.font3 {
+    margin-left: 500px;
+    color: rgb(0, 0, 0);
+}
+.button2{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.button2 > .buttona:hover {
+    background-color: white;
+    color: red;
+}
+.button2 > .buttonb:hover {
+    background-color: white;
+    color:blue;
+}
+.button2 > .buttona{
+    padding: 8px 100px;
+}
+.button2 > .buttonb{
+    padding: 8px 35px;
+}
+.uudai1{
+    color: black;
+}
+.uudai1:hover{
+    color: black;
+}
+.container3{
+    margin-left: 970px;
+    margin-right: 20px;
+    margin-top: -600px;
+    color: rgb(0, 0, 0);
+}
+.banner1 {
+    margin-left: -950px;
+    margin-top: 4%;
+}
+.infomation {
+    color: rgb(0, 0, 0);
+}
+.img1 {
+    margin-left: 29%;
+}
+.infomation > img {
+    margin-left: 29%;
+}
+.infomation> #more > img {
+    margin-left: 29%;
+}
+.infomation > button{
+    margin-left: 50%;
+}
+.infomation > .collapse >img{
+    margin-left: 29%;
+}
+.font1{
+    color: rgb(0, 0, 0);
+}
+footer {
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: Sans-serif!important;
+font-size: 12px;
+line-height: 22px;
+color: #444;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+display: block; }
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+ #button10{
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border:1px solid white;
+  }
+  button:hover {
+    color: white;
+    
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }          
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  
+    .cancelbtn {
+       width: 100%;
+    }
+  
+
+
+  
